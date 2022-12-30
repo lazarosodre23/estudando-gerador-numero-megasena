@@ -1,0 +1,101 @@
+* {
+    font-family: 'Bebas Neue', cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+input:focus {
+    outline: none;
+}
+
+html, body {
+    height: auto;
+    min-height: 100vh;
+}
+
+
+html {
+    background: linear-gradient(180deg, #3d70dd 0%, #00d9ff 100%);
+}
+
+#sorteio-container {
+    max-width: 900px;
+    min-height: 80vh;
+    margin: 2rem auto;
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#sorteio-banner {
+    background: url(img/mega-sena-1.jpg);
+    background-size: 120%;
+    background-position: center;
+    width: 50%;
+}
+
+#sorteio-formulario {
+    background-color: #fdfdfd;
+    padding: 2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+#sorteio-formulario h2{
+    text-align: center;
+    margin-bottom: .2rem;
+    font-size: 2.2rem;
+}
+
+#sorteio-formulario p{
+    text-align: center;
+    margin: 10px 0;
+    color: #aaa;
+    font-size: 1.2rem;
+}
+
+#sorteio-formulario p span:hover {
+    color: rgb(255, 123, 0);
+    cursor: pointer;
+
+}
+
+#sorteio-formulario h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    
+    
+}
+
+#sorteio-formulario label {
+    font-weight: bold;
+    margin-bottom: .6rem;
+}
+
+#sorteio-formulario input {
+    border: none;
+    border-bottom: 1px solid #aaa;
+    padding: .6rem 0;
+}
+
+#form-cotrole {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#form-cotrole label {
+    font-weight: bold;
+    margin-bottom: .6rem;
+}
+
+#form-cotrole input {
+    border: none;
+    border-bottom: 1px solid #aaa;
+    padding: .6rem 0;
+}
